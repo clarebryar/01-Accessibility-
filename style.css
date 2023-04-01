@@ -25,9 +25,23 @@ li {
 }
 
 article {
-
+height: 200px;
+width: 600px;
+background-color: blue;
+}
+p {
+margin: 1em; 
+}
+h2{
+text-align: center;
 }
 
-section{
-    padding: 20px;
+section {
+    padding-bottom: 1em;
+}
+
+aside {
+height: 600px;
+width: 300px;    
+float: right;
 }
