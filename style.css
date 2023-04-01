@@ -1,8 +1,33 @@
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-   
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 body {
-    background-color:beige;
+  background-color: beige;
+}
+
+header {
+  background-color: aliceblue;
+  padding: 1em;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 1em;
+}
+.seo{
+   color:blue; 
+}
+
+article {
+
+}
+
+section{
+    padding: 20px;
 }
