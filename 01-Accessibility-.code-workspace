@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "01-Accessibility-",
+			"path": "."
+		},
+		{
+			"name": "assets",
+			"path": "../../Boot Camp/01-HTML-Git-CSS/02-Challenge/Develop/assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "01-Accessibility-",
+		"liveServer.settings.port": 5501
+	}
+}
