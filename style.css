@@ -11,6 +11,11 @@ header {
   padding: 1em;
 }
 
+h1 {
+ display:inline-block;
+ font-weight: bold;    
+}
+
 ul {
   text-align: center;
 }
@@ -24,33 +29,36 @@ li {
    color:blue; 
 }
 
-article {
-display: inline-block;    
-vertical-align: middle;
-margin-right: 500px;
-background-color: blue;
+img {
+    height: 200px;
+    width: 200px;
 }
+
+main {
+display: inline; 
+float: left;
+width: 74%;
+margin: 10px;
+background-color: blue;  
+}
+
 p {
-margin: 1em; 
+margin: 1em;
 }
 h2{
 text-align: center;
 }
 
-section {
-    padding-bottom: 1em;
-}
-
 aside {
-position:absolute; 
-right: 0;
-top: 4px;
-width:38%;
-margin-top: 13.3%;
+display: inline;
 background-color: blue;
 }
 
 h3 {
     text-align: center;
-    text-size-adjust: 
+    text-size-adjust; 
 }
+
+article {
+    
+} 
