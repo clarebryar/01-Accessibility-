@@ -1,5 +1,6 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
+  border: 1em
 }
 
 body {
@@ -12,7 +13,6 @@ header {
 }
 
 h1 {
- display:inline-block;
  font-weight: bold;    
 }
 
@@ -34,13 +34,6 @@ img {
     width: 200px;
 }
 
-main {
-display: inline; 
-float: left;
-width: 74%;
-margin: 10px;
-background-color: blue;  
-}
 
 p {
 margin: 1em;
@@ -50,15 +43,39 @@ text-align: center;
 }
 
 aside {
-display: inline;
 background-color: blue;
+padding: 20px;
+display: inline;
 }
 
+
 h3 {
-    text-align: center;
-    text-size-adjust; 
+    text-align: center; 
+}
+.asidecontainer {
+    float: right;
+    width: 15%;
+    margin-right: 25px;
+    clear: both;
+    display:block;
 }
 
 article {
-    
+background-color: blue;
+margin-bottom: 1em;
+padding: 1em;
+border: 1em;
+width: 70%;
 } 
+
+
+.meeting-image{
+    width: 100%;
+    height: 700px;
+  background-image: url(digital-marketing-meeting.jpg); 
+  background-position: center ;
+  background-size: cover;
+}
+section {
+display: inline;
+}
