@@ -5,19 +5,32 @@
 
 body {
   background-color: beige;
+  margin: unset;
 }
 
 header {
   background-color: aliceblue;
   padding: 1em;
+  width: 100%;
+  display:flex;
+  align-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
 }
-
+main {
+  display: flex;
+}
 h1 {
- font-weight: bold;    
+ font-weight: bold;   
+}
+nav {
+display: flex;  
 }
 
 ul {
   text-align: center;
+  display: flex;
+  margin-right: 25px;
 }
 
 li {
@@ -42,10 +55,10 @@ h2{
 text-align: center;
 }
 
+
 aside {
 background-color: blue;
 padding: 20px;
-display: inline;
 }
 
 
@@ -53,21 +66,24 @@ h3 {
     text-align: center; 
 }
 .asidecontainer {
-    float: right;
-    width: 15%;
-    margin-right: 25px;
-    clear: both;
-    display:block;
+  flex-basis: 20%;
+  margin-inline: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center; 
 }
-
+.section-container {
+flex-basis: 70%;
+margin-inline: 15px;
+}
 article {
-background-color: blue;
+  background-color: blue;
 margin-bottom: 1em;
 padding: 1em;
 border: 1em;
-width: 70%;
 } 
-
 
 .meeting-image{
     width: 100%;
@@ -75,7 +91,8 @@ width: 70%;
   background-image: url(digital-marketing-meeting.jpg); 
   background-position: center ;
   background-size: cover;
+  margin-bottom: 1em;
 }
-section {
-display: inline;
+footer {
+text-align:center
 }
